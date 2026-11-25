@@ -1,0 +1,111 @@
+{
+    "macros": {
+        "italic_latex": [
+            {
+                "command": "type",
+                "args": {
+                    "text": "\\textit{}"
+                }
+            },
+            "cursorLeft"
+        ],
+        "bold_latex": [
+            {
+                "command": "type",
+                "args": {
+                    "text": "\\textbf{}"
+                }
+            },
+            "cursorLeft"
+        ],
+        "color_text": [
+            {
+                "command": "type",
+                "args": {
+                    "text": "\\textcolor{changes}{}"
+                }
+            },
+            "cursorLeft"
+        ],
+        "markdown_code_block": [
+            {
+                "command": "type",
+                "args": {
+                    "text": "```python```"
+                }
+            },
+            "cursorLeft",
+            "cursorLeft",
+            "cursorLeft"
+        ],
+        "markdown_code_word": [
+            {
+                "command": "type",
+                "args": {
+                    "text": "``"
+                }
+            },
+            "cursorLeft"
+        ],
+        "html_sub": [
+            {
+                "command": "type",
+                "args": {
+                    "text": "<sub></sub>"
+                }
+            },
+            "cursorLeft",
+            "cursorLeft",
+            "cursorLeft",
+            "cursorLeft",
+            "cursorLeft",
+            "cursorLeft"
+        ]
+    },
+    "cSpell.words": [
+        "analyzability",
+        "Andreotti",
+        "Berlusconi",
+        "colour",
+        "Convolutional",
+        "Craxi",
+        "cyberbullied",
+        "cyberbullying",
+        "D'Alema",
+        "Dini",
+        "emisphere",
+        "explorative",
+        "Flesch",
+        "Forlani",
+        "Gasperi",
+        "Goria",
+        "hyperparameters",
+        "interpretability",
+        "interquartile",
+        "lemmatization",
+        "lemmatized",
+        "lemmatizer",
+        "lockdown",
+        "LOWESS",
+        "Mita",
+        "MTLD",
+        "multimodal",
+        "polyarchy",
+        "pretrained",
+        "pretraining",
+        "relashionsiup",
+        "Spadolini",
+        "Stopwords",
+        "subcomponents",
+        "topicalization",
+        "undersample",
+        "undersampled",
+        "undersampling",
+        "virality",
+        "visualising"
+    ],
+    "editor.wordWrap": "on",
+    "cSpell.enabled": true,
+    "editor.fontSize": 19,
+    "tinymist.typstExtraArgs": ["report/typst/main.typ"],
+}

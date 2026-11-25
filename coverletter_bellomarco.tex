@@ -1,0 +1,129 @@
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+
+
+\moderncvcolor{red}
+\definecolor{venetianred}{HTML}{A42A04}
+\colorlet{color1}{venetianred}
+\colorlet{color2}{venetianred!70}
+\moderncvstyle{classic} % must come AFTER the colour overrides
+\definecolor{lightblue}{HTML}{3A9BDC}
+
+
+%\colorlet{color2}{mycolor!70} % secondary (slightly lighter)
+\newcommand{\bluelink}[2]{\href{#1}{\textcolor{lightblue}{#2}}}
+
+%\definecolor{color1}{HTML}{434C98}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={210mm,297mm},
+ left=25mm,
+ right=25mm,
+ top=20mm,
+ bottom=20mm,
+ }
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Marco} % Your first name
+\familyname{Bellò} % Your last name
+
+
+\mobile{+393497617003}
+ % Phone number
+\email{marco.bello.vi@gmail.com} % Email ID
+
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge Marco Bellò} \\ \vspace{5pt}
+    \small \faMobile* +39 3497617003 \hspace{1pt} $|$
+    \hspace{1pt} \faEnvelope \hspace{2pt} \href{mailto:marco.bello.vi@gmail.com}{marco.bello.vi@gmail.com} \hspace{1pt} $|$ 
+    \hspace{1pt} \faGithub \hspace{2pt} \href{https://github.com/mhetacc}{github.com/mhetacc} \hspace{1pt} $|$
+    \hspace{1pt} \faTelegram \hspace{2pt} \href{https://t.me/mhetac}{t.me/mhetac}
+    \\ \vspace{-3pt}
+\end{center}
+\vspace{10pt} % adjust spacing as needed
+
+{\color{venetianred} \hrule height 0.8pt}
+
+\vspace{10pt}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+%\section{Interests and Background}
+
+I hold a Master's degree in Computer Science from the University of Padua, and while I started from a security and networking track, passing through mobile development and algorithms, I kept finding myself leaning towards data analysis- and machine learning-related topics. Since I always had a passion for politics and sociology, I initially explored the field of Natural Language Processing with the idea of analyzing the public discourse on social networks. Together with a colleague, I developed a political analysis in R to study the presence of echo-chambers in TikTok and the degree of their segregation (\bluelink{https://github.com/mhetacc/TikTok_SocialNetworkAnalysis}{github repository}), which confirmed my interests and led to the development of an interactive visualizer of European elections data with Plotly (\bluelink{https://github.com/mhetacc/HLSK_InteractiveVisualizer}{github repository}), and ultimately to my Master Thesis (\bluelink{https://github.com/mhetacc/crossdem}{github repository}): I embedded the public speeches of Italian Prime Ministers from 1945 to 2025, to compare their lexical complexity (among Prime Ministers and political leanings), their polarization (by projecting the speech embeddings on a t-SNE), and their hostility (for example by measuring their degree of hate speech). To build the dataset I scraped the speeches, transcribed them with OpenAI's Whisper, and annotated them with Google's Gemma 4. The dataset is openly available in the repository page, and the graphs are interactive and available at the website \bluelink{https://mhetacc.github.io/crossdem/}{mhetacc.github.io/crossdem}.
+
+\vspace{2mm}
+
+I want to work in the field of artificial intelligence because I find AI algorithms and data structures to be fascinating, fun to learn and to work with, and I firmly believe it to be a revolutionary and disruptive technology that will be at center of the future advancements in the private and public sectors. While it is true that there are real ethical concerns around privacy and training-data provenance, I believe it possible to overcome these challenges with strategies such as running open-source models locally, and I want to be a part of this change. Although most of my projects are NLP-related, I don't want to limit myself to working only with language models: for example, I have a strong interest in the automotive sector, and I would be happy to explore computer vision-based projects, especially if related to autonomous driving.
+ 
+
+\vspace{2mm}
+
+I have extensive experience with the Python programming language, since I used it for both ``common'' applications, such as data visualization and machine learning, as well as in my Master Thesis, and for less common ones: I simulated a concurrent online-gaming scenario leveraging remote procedure calls and multithreading (\bluelink{https://github.com/mhetacc/Raftian}{github repository}). I have also worked with C++ for many years, used Dart and Flutter, and done some game development in Godot. I used both Windows and macOS, as well as different flavors of Linux, and my current system runs Fedora Workstation 44. I am a native Italian speaker, I hold a C1 certification in English (TOEFL 108/120), and I have been studying French since 2025.
+
+
+\vspace{2mm}
+
+
+%----------------------------------------------------------------------------------------
+%	PROJECT SECTION
+%----------------------------------------------------------------------------------------
+
+Thank you for your time and consideration, I am available for an interview at any time that suits you.
+
+%----------------------------------------------------------------------------------------
+%	ACHIEVEMENTS SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	PROFILE% SECTION
+%---------------------------------------------------------------------------------------%-%
+
+%\section{Profiles}
+
+%\cvitem{GitHub}{\url{https://github.com/sakshib}}
+%\cvitem{clubVA}{\url{https://www.clubva.com/public/employee/avatar/index/Sakshi}\newline{}}
+
+\end{document}
