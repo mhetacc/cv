@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1795607996.52743 "/home/mhetac/Documents/cv/coverletter_bellomarco.tex" "coverletter_bellomarco.pdf" "coverletter_bellomarco" 1795607997.26292 0
-  "/home/mhetac/Documents/cv/coverletter_bellomarco.tex" 1795607996.26881 7078 c219a0e5551700c43754359bb3043e32 ""
+["pdflatex"] 1795608247.40801 "/home/mhetac/Documents/cv/coverletter_bellomarco.tex" "coverletter_bellomarco.pdf" "coverletter_bellomarco" 1795608247.98901 0
+  "/home/mhetac/Documents/cv/coverletter_bellomarco.tex" 1795608247.20078 7121 2dca28f5fc53675b8d1c2907a92821fa ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1651520503 2608 3139db8e1f9371a4f87c0715d17fa217 ""
@@ -178,9 +178,9 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1777593600 43785 66587115382950aca692b5f6e3c2fb74 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1791798471 4754582 bb9b3e19645871bca826378e1fa92f2a ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1794570305 3520867 5f677f32be3cfe76f367fa6c9130f2a8 ""
-  "coverletter_bellomarco.aux" 1795607997.21045 204 62e1fd4701e2c442b920a2c9a7425a48 "pdflatex"
-  "coverletter_bellomarco.out" 1795607997.13234 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "coverletter_bellomarco.tex" 1795607996.26881 7078 c219a0e5551700c43754359bb3043e32 ""
+  "coverletter_bellomarco.aux" 1795608247.93715 204 62e1fd4701e2c442b920a2c9a7425a48 "pdflatex"
+  "coverletter_bellomarco.out" 1795608247.86075 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "coverletter_bellomarco.tex" 1795608247.20078 7121 2dca28f5fc53675b8d1c2907a92821fa ""
   (generated)
   "coverletter_bellomarco.aux"
   "coverletter_bellomarco.fls"
